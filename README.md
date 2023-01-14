@@ -34,10 +34,10 @@ docker network create my_network
 # Build dev
 # Note: Keep v1 command until "Use Docker Compose v2" is enabled by default for Docker Desktop for Linux
 # Docker aliases `docker-compose` (v1 command) to `docker compose` (v2 command), but not the other way around
-docker-compose -f docker-compose.dev.yml build
+docker-compose build
 
 # Up dev
-docker-compose -f docker-compose.dev.yml up
+docker-compose up
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
