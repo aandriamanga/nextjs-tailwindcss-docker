@@ -70,10 +70,10 @@ Alternatively, run the production server without without multistage builds (Fina
 docker network create my_network
 
 # Build prod without multistage
-docker-compose -f docker-compose.prod-without-multistage.yml build
+docker-compose build
 
 # Up prod without multistage in detached mode
-docker-compose -f docker-compose.prod-without-multistage.yml up -d
+docker-compose up
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
