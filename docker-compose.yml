@@ -6,7 +6,7 @@ services:
     build:
       context: .
     volumes:
-      - ./pages:/app/src
+      - ./pages:/app/pages
       - ./public:/app/public
       - ./styles:/app/styles
     restart: always
